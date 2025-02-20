@@ -39,3 +39,6 @@ decimo_01 = primeiro_termo + (11 - 1) * a_razao
 for contator in range(primeiro_termo, decimo_01, a_razao):
     print('{}'.format(contator))
 print('Fim!')
+
+
+    
