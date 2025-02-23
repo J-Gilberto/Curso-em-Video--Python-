@@ -139,32 +139,58 @@
 # print(f'O maior número foi {maior} e o menor número é {menor}')
 
 
+# soma = 0
+# cont = 0
+# maior = None
+# menor = None
+
+# while True:
+#     numero = int(input(f'Entre com o valor: '))
+#     entrada = (input(f'Deseja continuar? [S / N]: ')).upper().strip()[0]
+
+#     soma = soma + numero
+#     cont = cont + 1
+#     media = soma / cont
+
+#     if maior is None or numero > maior:
+#         maior = numero
+#     if menor is None or numero < menor:
+#         menor = numero
+
+#     if entrada == 'N':
+#         break
+#     else:
+#         print(f'Continuando...')
+
+# print(f'A soma dos valores é: {soma} e a quantidade de entradas foram {cont}')
+# print(f'a media foi de {media:.1f}')
+# print(f'O maior valor foi {maior} e o menor {menor}')
+
 soma = 0
 cont = 0
 maior = None
 menor = None
 
 while True:
-    numero = int(input(f'Entre com o valor: '))
-    entrada = (input(f'Deseja continuar? [S / N]: ')).upper().strip()[0]
+    valor = int(input(f'Entre com o valor de entrada: '))
+    texto = str(input(f'Deseja continuar ? [S / N]: ')).strip().upper()[0]
 
-    soma = soma + numero
-    cont = cont + 1
+    soma += valor
+    cont += 1
     media = soma / cont
 
-    if maior is None or numero > maior:
-        maior = numero
-    if menor is None or numero < menor:
-        menor = numero
+    if maior is None or valor > maior:
+        maior = valor
+    if menor is None or valor < menor:
+        menor = valor
 
-    if entrada == 'N':
+    if texto == 'N':
         break
     else:
         print(f'Continuando...')
-
-print(f'A soma dos valores é: {soma} e a quantidade de entradas foram {cont}')
-print(f'a media foi de {media:.1f}')
-print(f'O maior valor foi {maior} e o menor {menor}')
+print(f'A soma dos valores é: {soma} e a qunidade de entradas foram {cont}.')
+print(f'Media dos valores foi de {media}')
+print(f'O maior valor foi de {maior} e o menor foi de {menor}')
 
 
 
