@@ -35,18 +35,47 @@
 # print(f' - Fim')
     
     
-k = int(input(f'Entre com a quantidade de termos: '))
+# k = int(input(f'Entre com a quantidade de termos: '))
+
+# t1 = 0
+# t2 = 1
+# cont = 3
+# print(f'{t1} - {t2}', end='')
+# while cont <= k:
+#     t3 = t1 + t2
+#     print(f' - {t3}', end='')
+#     cont = cont + 1
+#     t1 = t2
+#     t2 = t3
+# print(f' - Fim')
+
+
+# j = int(input(f'Entre com a quantidades de termos: '))
+
+# t1 = 0
+# t2 = 1
+# cont = 3
+# print(f'{t1} - {t2}', end='')
+# while cont <= j:
+#     t3 = t1 + t2
+#     print(f' - {t3}', end='')
+#     cont = cont + 1
+#     t1 = t2
+#     t2 = t3
+# print(f' - Fim')
+
+
+g = int(input(f'Entre com a quantidades de termos: '))
 
 t1 = 0
 t2 = 1
 cont = 3
 print(f'{t1} - {t2}', end='')
-while cont <= k:
+while cont <= g:
     t3 = t1 + t2
     print(f' - {t3}', end='')
     cont = cont + 1
     t1 = t2
     t2 = t3
 print(f' - Fim')
-    
-    
+
